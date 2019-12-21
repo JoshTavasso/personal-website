@@ -1,0 +1,27 @@
+/* typing.css 
+Type-writer styling for home page title. Heavily based on the example sourced below.
+Source : https://css-tricks.com/snippets/css/typewriter-effect/
+*/
+  
+.typewriter h1 {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation:
+    typing 3s steps(60, end),
+    blink-caret 1.5s step-end 3;
+    border-right: .15em solid transparent;
+
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent }
+}
+

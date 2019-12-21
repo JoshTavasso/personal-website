@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Joshua Tavassolikhah
+EMAIL: jtavasso@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Joshua Tavassolikhah">
+  <meta name="description" content="My Personal Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+   <!-- Bootstrap -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+   integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+   crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!-- Source of icons in index.html-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" type="text/css" href = "css/navbar.css">
+  <link rel="stylesheet" type="text/css" href = "css/typing.css">
+  <link rel="stylesheet" type="text/css" href = "css/two-column.css">
+  <!-- icon made through https://www.freelogodesign.org/ -->
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <title>Joshua Tavassolikhah</title>
+</head>
+<body>
+  <!-- Based on bootstrap navbar documentation: https://getbootstrap.com/docs/4.3/components/navbar/ -->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light">
+        <!-- logo made through https://www.freelogodesign.org/ -->
+        <a href="index.html">
+        <img class="navbar-brand" src="images/logo.png" alt="Logo of this website - JoshTavasso.com">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="navbtnstyles" style="text-decoration:none; padding-left: 10px;" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="navbtnstyles" style="text-decoration:none; padding-left: 10px;" href="about.html">About</a></li>
+                <li class="nav-item"><a class="navbtnstyles" style="text-decoration:none; padding-left: 10px;" href="experience.html">Experience</a></li>
+                <li class="nav-item"><a class="navbtnstyles" style="text-decoration:none; padding-left: 10px;" href="projects.html">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+		<div class="container text-center">
+        <div class="typewriter typewriter-sm">
+          <h1 class="text-center" style=
+            "font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><strong>Projects</strong></h1>
+        </div>
+        <div class="row">
+            <div class="column" >
+              <figure>
+               <img src="images/notify_expire-demo.gif" alt="A demo showing SendFuuds notifying the user." style="width:50%; box-shadow: 10px 10px 5px grey;" class="left">
+               <div style="padding-bottom: 20px;"></div>
+               <figcaption style = "font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >A demo showing that the app notifies the user when their food is about to expire. </figcaption>
+               </figure>
+            </div>
+            <div class="column" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >
+                <h2>SendFuuds - iOS Mobile App&nbsp;(Mar. 2019)</h2>
+                <p>
+                  &bull; An iOS social media application where users can <strong>share their soon-to-expire food with friends.</strong>
+                  <br />
+                  &bull; Recognized as the <strong>Best Social Awareness Application</strong> at the <strong>UC Irvine CodePath Demo Day.&nbsp;
+                  </strong><br />
+                  &bull; Implemented a <strong>Model-View-Controller</strong> architectural design.&nbsp;
+                  <br />
+                  &bull; Integrated <strong>Parse API</strong> to develop <strong>User Authentication</strong> and <strong>iOS Notifications</strong> 
+                      to ensure that users can share their food with friends and become more aware of their food waste.&nbsp;<br />
+                  &bull; Developed with a team of 3: Joshua Tavassolikhah, Justin Leong, David Yip
+                </p>
+                <p>
+                  Read more about this project and take a look at how it is implemented by checking out the repository:&nbsp;
+                  <a href="https://github.com/JoshTavasso">github.com/JoshTavasso</a>
+                </p>
+                <p>Made in collaboration with&nbsp;Justin Leong, David Yip</p>
+            </div>
+          </div>
+          <div style="padding-bottom: 20px;"></div>
+          <div class="row">
+              <div class="column" >
+                <figure>
+                 <img src="images/yelp-app-walkthrough.gif" alt="A demo of how Food Sentiment Analysis works" style="width:100%; box-shadow: 10px 10px 5px grey;" class="left">
+                 <div style="padding-bottom: 20px;"></div>
+                 <figcaption style = "font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >A demo showing how this app works. </figcaption>
+                 </figure>
+              </div>
+              <div class="column" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >
+                  <h2>Food Sentiment Analysis&nbsp;(Feb. 2019)</h2>
+                  <p>
+                    While reading reviews from the business, you might notice that the ratings don't match with the sentiment analysis. 
+                    That's because an rating number tells one side of the story, but the sentiments of users tell another. Hence, 
+                    I collaborated with a friend to create a web-app that tells users how people feel about certain food items, based on Yelp Reviews.
+                  </p>
+                  <p>&bull; 
+                    Recognized as the Best Data Analysis Web Application for a business proposal project.<br />
+                    &bull; 
+                    Parsed Yelp data using Yelp Fusion API and Textblob to provide unique insight on Business reviews.</p>
+                  <p>Read more about this project and take a look at how it is implemented by checking out the repository:&nbsp;
+                    <a href="https://github.com/JoshTavasso">github.com/JoshTavasso</a><br /> <br>
+                    Made in collaboration with&nbsp;Guillermo Sanchez</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="column" >
+                <figure>
+                 <img src="images/hackathon.png" alt="An image showing how Is Your Car Safe? works" style="width:100%; box-shadow: 10px 10px 5px grey;" class="left">
+                 <div style="padding-bottom: 20px;"></div>
+                 <figcaption style = "font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >An image showing what happens when the user inputs their location. 
+                  The flags represent the history of vehicle thefts near the user.
+                </figcaption>
+                 </figure>
+              </div>
+              <div class="column" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >
+                  <h2>Is Your Car Safe?&nbsp;(Feb. 2019 - HackUCI)</h2>
+                  <p>Do you ever wonder if your car is safe after you parked?</p>
+                  <p>Using <strong>Google Maps API</strong> and an incident dataset located 
+                    <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783">here</a>, 
+                    we created a web application that can display incidents near your location and based on the number of incidents, 
+                    <strong>we determine if your parking spot is safe or not!</strong>
+                  </p>
+                  <p>User can input their location and the application shows them all <strong>vehicle-related incidents</strong> 
+                    such as vehicle thefts.
+                  </p>
+                  <p>Locations are limited to just <strong>San Francisco, CA.</strong></p>
+                  <p>&bull; Collaborated with a team of 4 at <strong>HackUCI 2019</strong> 
+                    to create this functioning application in <strong>3 days.</strong><br />
+                    &bull; Built with <strong>Flask (Python Web Framework), HTML/CSS, and JavaScript.</strong>
+                  </p>
+                  <p>Read more about this project and take a look at how it is implemented by checking out the repository:&nbsp;
+                    <a href="https://github.com/JoshTavasso">github.com/JoshTavasso</a>
+                  </p>
+                  <p>Made in collaboration with&nbsp;Justin Leong, David Yip, Joseph Medina</p>
+              </div>
+        </div>
+        <div style="padding-bottom: 20px;"></div>
+        <div class="row">
+            <div class="column" >
+              <figure>
+               <img src="images/reddit-sms.jpeg" alt="A text interaction with Reddit SMS and a User." style="width:80%; box-shadow: 10px 10px 5px grey;" class="left">
+               <div style="padding-bottom: 20px;"></div>
+               <figcaption style = "font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >An image showing 1 example interaction with this service. </figcaption>
+               </figure>
+            </div>
+            <div class="column" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" >
+                <h2>Reddit SMS&nbsp;(Summer 2018)</h2>
+                <p>A Reddit Texting Service&nbsp;</p>
+                <p>A user can request information from subreddits to our phone number through their mobile phone and receive a text message containing their desired information.</p>
+                <p><strong>Purpose:</strong> A user can get their latest information from their favorite subreddits in seconds, <strong>without needing access to the internet.</strong></p>
+                <p>Implemented in<strong> <strong>Python,</strong> </strong>using<strong> <strong>Flask (Web Framework),</strong> 
+                  <strong>Praw (Reddit API),</strong> </strong>and<strong> <strong>Twilio (Texting API).</strong></strong></p>
+                <p>The demo I have shown represents one example of an<strong> interaction.</strong> The user uses the following format: &lt;subreddit&gt; &lt;number of posts&gt; &lt;category&gt; 
+                  and receives a response back with information. Due to limitations with the Twilio free trial, there is a limit to how many characters per text message, 
+                  so the messages are out of order here and sent in bulk. But, with a Twilio premium account, there is no such limitation.
+                </p>
+                <p>Read more about this project and take a look at how it is implemented by checking out the repository:&nbsp;<a href="https://github.com/JoshTavasso">github.com/JoshTavasso</a></p>
+                <p>Made in collaboration with Joseph Medina </p>
+            </div>
+      </div>
+    </div>
+</body>
+</html>

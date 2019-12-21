@@ -1,0 +1,25 @@
+/* two-column.css
+Styling for dealing with a two-column format. Heavily based on the example sourced below.
+Source : https://www.w3schools.com/howto/howto_css_two_columns.asp
+*/
+* {
+    box-sizing: border-box;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+    }
+  }
+
